@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>ad.members</AssemblyName>
+    <RootNamespace>Weihnachten.Members</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReadLine" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdLibrary\AdLibrary.Api\AdLibrary.Api.csproj" />
+    <ProjectReference Include="..\Members\Members.csproj" />
+  </ItemGroup>
+
+</Project>

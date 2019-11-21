@@ -1,0 +1,3 @@
+[submodule "AdLibrary"]
+	path = AdLibrary
+	url = https://github.com/schletz/AdLibrary.git
